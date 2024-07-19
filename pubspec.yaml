@@ -17,6 +17,8 @@ dependencies:
   cupertino_icons: ^1.0.6
   # A package which simplifies the task of updating your Flutter app's launcher icon.
   flutter_launcher_icons: ^0.13.1
+  # Customize Flutter's default white native splash screen
+  flutter_native_splash: ^2.4.1
 
 
 flutter_launcher_icons:
