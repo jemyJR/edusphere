@@ -1,3 +1,4 @@
+import 'package:edusphere/core/constants/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -6,16 +7,13 @@ class EdusphereApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ScreenUtilInit(
-      designSize: const Size(428, 926),
+    return const ScreenUtilInit(
+      designSize: Size(428, 926),
       minTextAdapt: true,
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Edusphere',
-        theme: ThemeData(
-          primarySwatch: Colors.blue,
-        ),
-        home: const Scaffold(
+        title: AppConstants.appName,
+        home: Scaffold(
           body: Center(
             child: Text('Hello, World!'),
           ),
