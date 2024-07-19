@@ -19,6 +19,8 @@ dependencies:
   flutter_launcher_icons: ^0.13.1
   # Customize Flutter's default white native splash screen
   flutter_native_splash: ^2.4.1
+  # A flutter plugin for adapting screen and font size
+  flutter_screenutil: ^5.9.3
 
 
 flutter_launcher_icons:
