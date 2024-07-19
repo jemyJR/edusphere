@@ -1,3 +1,4 @@
+import 'package:edusphere/core/constants/text_style.dart';
 import 'package:edusphere/generated/l10n.dart';
 import 'package:flutter/material.dart';
 
@@ -10,6 +11,7 @@ class OnBoardingScreen extends StatelessWidget {
       body: Center(
         child: Text(
           S.of(context).skip,
+          style: AppTextStyle.font16BlackJost,
         ),
       ),
     );

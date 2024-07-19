@@ -14,14 +14,14 @@ class EdusphereApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ScreenUtilInit(
-      designSize: const Size(428, 926),
+      designSize: const Size(360, 690),
       minTextAdapt: true,
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
         title: AppConstants.appName,
         initialRoute: Routes.onBoardingScreen,
         onGenerateRoute: appRouter.onGenerateRoute,
-        locale: const Locale('ar'),
+        locale: const Locale('en'),
         localizationsDelegates: const [
           S.delegate,
           GlobalMaterialLocalizations.delegate,
