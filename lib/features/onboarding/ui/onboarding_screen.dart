@@ -1,3 +1,4 @@
+import 'package:edusphere/generated/l10n.dart';
 import 'package:flutter/material.dart';
 
 class OnBoardingScreen extends StatelessWidget {
@@ -5,9 +6,11 @@ class OnBoardingScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return Scaffold(
       body: Center(
-        child: Text('OnBoarding Screen'),
+        child: Text(
+          S.of(context).skip,
+        ),
       ),
     );
   }
